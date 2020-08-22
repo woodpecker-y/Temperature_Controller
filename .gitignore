@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# keil project file
+*.pbd.linf
+*.dep
+*.Debug.cspy.bat
+*.Debug.cspy.ps1
+*.Debug.general.xcl
+*.dnx
+*.wsdt

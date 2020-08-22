@@ -23,9 +23,9 @@ param([String]$debugfile = "");
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\Yjh开发\02.新版温控器程序源码\新版温控器\1.正式程序\FY-2200_Soft_V60 -190821\Project\settings\Project.Debug.general.xcl" --backend -f "E:\Yjh开发\02.新版温控器程序源码\新版温控器\1.正式程序\FY-2200_Soft_V60 -190821\Project\settings\Project.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\Yjh开发\GitHub\temperature_controller\Project\settings\Project.Debug.general.xcl" --backend -f "E:\Yjh开发\GitHub\temperature_controller\Project\settings\Project.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\Yjh开发\02.新版温控器程序源码\新版温控器\1.正式程序\FY-2200_Soft_V60 -190821\Project\settings\Project.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\Yjh开发\02.新版温控器程序源码\新版温控器\1.正式程序\FY-2200_Soft_V60 -190821\Project\settings\Project.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\Yjh开发\GitHub\temperature_controller\Project\settings\Project.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\Yjh开发\GitHub\temperature_controller\Project\settings\Project.Debug.driver.xcl" 
 }
